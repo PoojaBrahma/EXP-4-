@@ -1,20 +1,26 @@
 # EXP-4
-EXP. NO. 4. 		HALFWAVE  AND FULL WAVE  RECTIFIERS
+HALFWAVE  AND FULL WAVE  RECTIFIERS
 
-AIM: To study the characteristics of half wave, full wave and bridge rectifier with and without filter and calculate the ripple factor, rectification efficiency and % regulation.
+## AIM: 
 
-COMPONENTS  AND  EQUIPMENT  REQUIRED:  Diodes,  Resistor,  Transformer,  Voltmeter, Ammeter, Breadboard and CRO.
+To study the characteristics of half wave, full wave and bridge rectifier with and without filter and calculate the ripple factor, rectification efficiency and % regulation.
 
-THEORY: Rectifier changes ac to dc and it is an essential part of power supply. The unique property of a diode, permitting the current to flow in one direction, is utilised in rectifiers.
+## COMPONENTS  AND  EQUIPMENT  REQUIRED: 
 
-Half Wave Rectifier
+Diodes,  Resistor,  Transformer,  Voltmeter, Ammeter, Breadboard and CRO.
+
+## THEORY:
+
+Rectifier changes ac to dc and it is an essential part of power supply. The unique property of a diode, permitting the current to flow in one direction, is utilised in rectifiers.
+
+# Half Wave Rectifier
 
 
 Mains power supply is applied at the primary of the step-down transformer. All the positive half cycles of the stepped down ac supply pass through the diode and all the negative half cycles get eliminated. Peak value of the output voltage is less than the peak value of the input voltage by 0.6V because of the voltage drop across the diode.
 For a half wave rectifier, Vrms = Vm/2 and Vdc = Vm/π: where Vrms = rms value of input, Vdc = Average value of input and Vm = peak value of output.
 
 
-Full Wave Rectifier
+# Full Wave Rectifier
 During the positive half cycle of the transformer secondary voltage, diode     is forward biased and      is reverse biased. So a current flows through the diode     , load resistor      and upper half of the transformer  winding.  During  the  negative  half  cycle,  diode       becomes  forward  biased  and becomes reverse biased. The current then flows through the diode     , load resistor      and lower half of the transformer winding. Current flows through the load resistor in the same direction during both the half cycles. Peak value of the output voltage is less than the peak value of the input voltage by 0.6V
 because of the voltage drop across the diode.
 During the positive half cycle of the secondary voltage, diodes      and      are forward biased and diodes and      are reverse biased. Therefore, current flows through the secondary winding, diode     , load resistor
@@ -26,7 +32,8 @@ Capacitor input filter, choke input filter, RC, CRC, LC, and CLC filters are the
 Rectifier Efficiency
 
 Rectifier efficiency is defined as the ratio of DC output power to the input power from the AC supply. Even with ideal rectifiers with no losses, the efficiency is less than 100% because some of the output power is AC power rather than DC which manifests as ripple superimposed on the DC waveform.
-PROCEDURE:
+
+## PROCEDURE:
 
 1.   Wire up the half wave rectifier circuit without capacitor after testing all the components.
 
@@ -34,20 +41,34 @@ PROCEDURE:
 3.   Connect the capacitor filter and observe the waveforms. Note down and calculate ripple factor, rectifier efficiency and %regulation using the expressions. Repeat for different capacitor values.
 4.   Repeat the above steps for full wave and bridge rectifiers.
 
-CIRCUIT DIAGRAMS
+## CIRCUIT DIAGRAMS
 
-Half wave rectifier with filter:
+![41](https://github.com/user-attachments/assets/2faeed03-59a9-4da6-9890-0e307809c470)
 
-Bridge rectifier with filter:
+![42](https://github.com/user-attachments/assets/0c3641ba-b2b4-408b-9777-e357f9c43532)
 
-TABULAR COLUMN
-Rectifier without filter
-TABULAR COLUMN
-Rectifier with filter
-
-WAVEFORM:
+![43](https://github.com/user-attachments/assets/2ef668c3-4c95-458b-95ab-7c1e48a0852b)
 
 
-RESULT:
+![44](https://github.com/user-attachments/assets/9030a3f1-1f27-4f1d-9287-b371fa668d7f)
+
+
+## Half wave rectifier without filter:
+<img width="1097" height="781" alt="Screenshot 2025-10-31 134018" src="https://github.com/user-attachments/assets/9ab64807-92ec-4b78-8b67-d6efa5b86b02" />
+
+<img width="1137" height="878" alt="Screenshot 2025-10-31 133911" src="https://github.com/user-attachments/assets/e481ea33-06ac-4dbe-afd4-4eedddb002ea" />
+
+## Bridge rectifier with filter:
+<img width="1165" height="780" alt="Screenshot 2025-10-31 135721" src="https://github.com/user-attachments/assets/b63facc9-19ba-45ed-8844-3082bc1efdb0" />
+
+<img width="1096" height="810" alt="Screenshot 2025-10-31 135713" src="https://github.com/user-attachments/assets/bde60f7a-83a9-491c-8f12-03c5ec973636" />
+
+## Bridge rectifier without filter
+<img width="1098" height="737" alt="Screenshot 2025-10-31 135812" src="https://github.com/user-attachments/assets/6ea33390-1f95-491d-b311-bfccb956b8dc" />
+
+<img width="1112" height="815" alt="Screenshot 2025-10-31 135806" src="https://github.com/user-attachments/assets/10821ef4-da90-434d-960d-35252c01917f" />
+
+
+## RESULT:
 
 Input and Output waveforms of a half and full bridge-wave with /without filter are observed and plotted.
